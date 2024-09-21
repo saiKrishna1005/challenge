@@ -1,0 +1,36 @@
+.icons_container button{
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    background: #d8a2a2;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+    font-size: larger;
+    color: blue;
+
+}
+.icons_container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+.navbar_search_icon{
+    position: relative;
+}
+.navbar_search_icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+.links  a{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
